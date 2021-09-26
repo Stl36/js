@@ -18,6 +18,7 @@ console.log(obj1.price)
 obj1.make25PercentDiscount();
 console.log(obj1.price)
 
+// es6
 class Product2 {
     constructor(name, price) {
         this.name = name;
