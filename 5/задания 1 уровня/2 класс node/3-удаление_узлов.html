@@ -22,7 +22,14 @@
     2. Аналогичным образом удалите элемент с классом .btn-outline-dark -->
 
     <script>
-
+        "use strict";
+        alert('start');
+        let el1 = document.querySelector('.btn-outline-warning');
+        el1.remove();
+        alert('step');
+        let el2 = document.querySelector('.btn-outline-dark');
+        el2.remove();
+        // алертами не удается контролировать выполнение кода. как правильно это делать?
     </script>
 </body>
 
